@@ -1,0 +1,24 @@
+doctype html
+html
+
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    meta(name='description', content='description of your site')
+    meta(name='author', content= "author of the site")
+    //- uncomment if your site is responsive!
+    //- meta(name="viewport" content="width=device-width, initial-scale=1")
+    title= _path
+    != css()
+    .header
+      a.topnav(href='/') Home
+      a.topnav(href='/events') Events
+      a.topnav(href='/special') Special Orders
+      a.topnav(href='/about') About
+      a.topnav(href='/contact') Contact Me
+      a.topnav(href='//www.etsy.com/ca/shop/AllOnAHeartstring' target="_blank") My Etsy Shop
+  body
+    block content
+    .footer
+      p social media links
+    != js()

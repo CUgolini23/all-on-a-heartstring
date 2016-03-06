@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	p about me
+	p.recycled I recycle products
+		ul
+			-
+				recycled = ["envelopes", "sleeves", "shipping supplies"]
+			each item in recycled
+				li= item
+	p.upcycle I upcycle
+		ul
+			-
+				upcycled = ["tags", "ornaments", "hot chocolate/tea bags"]
+			each item in upcycled
+				li= item
