@@ -1,6 +1,6 @@
 {
-  "name": "tutorial",
-  "description": "Practice run with Roots",
+  "name": "all-on-a-heartstring",
+  "description": "all-on-a-heartstring Roots site",
   "dependencies": {
     "autoprefixer-stylus": "0.8.x",
     "axis": "0.5.x",
