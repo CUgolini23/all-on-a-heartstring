@@ -1,5 +1,5 @@
-# all-on-a-heartstring
-All On A HeartString - Roots source code
+# All on a HeartString
+Roots source code
 
 ### Setup
 
