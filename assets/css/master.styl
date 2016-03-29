@@ -14,6 +14,15 @@ html
 .header
   padding-top: 50px
 
+.header a.topnav:not(:first-child), .footer-nav a
+  text-decoration: none
+  border-bottom: 2px solid transparent
+  -webkit-transition: 0.3s ease
+  transition: 0.3s ease
+  white-space: nowrap
+.header a.topnav:not(:first-child):hover, .footer-nav a:hover
+  border-bottom: 2px solid black
+
 a:link, a:visited
   color: black
 
@@ -36,15 +45,11 @@ p.upcycle
 // Policy
 ul.policy li
   list-style none
-  line-height 1.3em
-
+  line-height: 1.3em
 .policies p
-  padding-left 40px
+  padding-left: 40px
 
   span
     display list-item
     list-style none
-    padding-top 10px
-
-.polHead
-    padding-top 10px
+    padding-top: 10px
