@@ -7,53 +7,61 @@ base()
 
 // Global styling
 html
-  background-color: #F3CF95
+  background-color #F3CF95
 
 .body-content, .header
-  padding: 0 50px 0 50px
+  padding 0 50px 0 50px
 .header
-  padding-top: 50px
+  padding-top 50px
 
 .header a.topnav:not(:first-child), .footer-nav a
-  text-decoration: none
-  border-bottom: 2px solid transparent
-  -webkit-transition: 0.3s ease
-  transition: 0.3s ease
-  white-space: nowrap
+  text-decoration none
+  border-bottom 2px solid transparent
+  -webkit-transition 0.3s ease
+  transition 0.3s ease
+  white-space nowrap
 .header a.topnav:not(:first-child):hover, .footer-nav a:hover
-  border-bottom: 2px solid black
+  border-bottom 2px solid black
 
 a:link, a:visited
-  color: black
+  color black
 
 .body-content
-  min-height: 465px
+  min-height 465px
 
 .spacer
-  width: 100%
-  height: 20px
+  width 100%
+  height 20px
 
 p
-  color: grey
+  color grey
+  line-height 1.3em
 
 p.recycled
-  color: blue
+  color blue
 
 p.upcycle
-  color: orange
+  color orange
+
+// Homepage
+img.welcome
+  float right
+  border 5px ridge #EDB65E
+  margin-left 10px
+  margin-bottom 10px
 
 // Policy
 ul.policy li
   list-style none
-  line-height: 1.3em
+  line-height 1.3em
 
 .policies p
-  padding-left: 40px
+  padding-left 40px
 
   span
     display list-item
     list-style none
-    padding-top: 10px
+    padding-top 10px
 
 #polUpdated
   font-size 14px
