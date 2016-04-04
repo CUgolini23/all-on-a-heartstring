@@ -1,5 +1,7 @@
 # All on a HeartString
-Roots source code
+![npm](https://img.shields.io/badge/npm-2.14.3-blue.svg)
+![status](https://img.shields.io/badge/status-in%20development-yellow.svg)
+[![compiler](https://img.shields.io/badge/compiler-roots-blue.svg)](http://roots.cx/)
 
 ### Setup
 
