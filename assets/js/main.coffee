@@ -1,1 +1,1 @@
-console.log 'hello there!'
+console.log 'Welcome to All On A HeartString!'
