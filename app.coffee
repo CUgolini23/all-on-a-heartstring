@@ -12,6 +12,9 @@ module.exports =
     css_pipeline(files: 'assets/css/*.styl')
   ]
 
+  open_browser: false
+  live_reload: true
+
   stylus:
     use: [axis(), rupture(), autoprefixer()]
     sourcemap: true
