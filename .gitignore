@@ -2,3 +2,4 @@
 node_modules
 public
 .netlify
+npm-debug.log
