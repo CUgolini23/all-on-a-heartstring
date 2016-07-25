@@ -55,6 +55,53 @@ img.welcome
   width 55%
   min-width 250px
 
+// Contact
+.contactPage
+  ul.methods
+    list-style none
+    width: 200px
+    position relative
+
+  li
+    position relative
+    width 100%
+
+    span
+      position relative
+      padding 20px
+      display block
+      z-index 20
+      color #808080
+      text-decoration none
+      border-radius 10px
+      text-align center
+
+    a
+      position absolute
+      display block
+      left 0
+      top 15px
+      z-index 10
+      text-decoration none
+      -webkit-transition all 0.4s ease
+      padding 5px
+      padding-left 10px
+      color white
+      white-space nowrap
+      border-top-right-radius 5px
+      border-bottom-right-radius 5px
+
+  li:hover a
+    margin 0 0 0 195px
+    background hsla(37, 80%, 50%, 1.0)
+
+  li:nth-child(1) span
+    background: hsla(37, 80%, 60%, 1.0)
+  li:nth-child(2) span
+    background: hsla(37, 80%, 65%, 1.0)
+  li:nth-child(3) span
+    background: hsla(37, 80%, 70%, 1.0)
+
 // Policy
 ul.policy li
   list-style none
