@@ -1,5 +1,5 @@
 # All on a HeartString
-![npm](https://img.shields.io/badge/npm-2.14.3-blue.svg)
+![npm](https://img.shields.io/badge/npm-3.10.5-blue.svg)
 ![build](https://img.shields.io/badge/build-in%20development-yellow.svg)
 [![compiler](https://img.shields.io/badge/compiler-roots-blue.svg)](http://roots.cx/)
 
