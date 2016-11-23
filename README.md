@@ -9,6 +9,7 @@
 - clone this repo down and `cd` into the folder
 - run `npm install`
 - run `roots watch`
+- localhost:1111
 
 ### Deploying
 
