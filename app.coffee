@@ -42,7 +42,7 @@ ____/\\\\\\\\\\\\\\\\\\___________/\\\\\\\\\\____________/\\\\\\\\\\_______/\\\\
 """
 blank = ""
 
-console.log project.blue
+console.log project.red
 
 # Colour Options:
 #  - black
