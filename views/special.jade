@@ -14,3 +14,28 @@ block content
       a(href='//www.facebook.com/LoveKnotsOnHeartStrings/' target='_blank')
         | Facebook page
       | . Contact me with the details, and we will work together to create a card that is straight from your heart to theirs!
+      
+      br
+      br
+      
+      #carousel.carousel.slide(data-ride='carousel' data-interval="3000")
+        // Indicators
+        ol.carousel-indicators
+          li.active(data-target='#carousel', data-slide-to='0')
+          li(data-target='#carousel', data-slide-to='1')
+          li(data-target='#carousel', data-slide-to='2')
+        // Wrapper for slides
+        .carousel-inner
+          .item.active
+            img(src='http://placehold.it/1200x315', alt='...')
+            .carousel-caption
+              h3 Image 1
+          .item
+            img(src='http://placehold.it/1200x315', alt='...')
+            .carousel-caption
+              h3 Image 2
+          .item
+            img(src='http://placehold.it/1200x315', alt='...')
+            .carousel-caption
+              h3 Image 3
+      // Carousel

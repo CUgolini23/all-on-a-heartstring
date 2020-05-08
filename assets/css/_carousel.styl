@@ -1,6 +1,12 @@
 .carousel
   position relative
 
+.eventsPage .carousel.slide
+  width 33%
+  & > .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img
+    max-width 100%
+
 .carousel-inner
   position relative
   width 100%
@@ -25,6 +31,7 @@
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img
   line-height 1
+  max-width 33%
 
 @media all and (transform-3d), (-webkit-transform-3d)
   .carousel-inner
