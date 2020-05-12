@@ -15,27 +15,43 @@ block content
         | Facebook page
       | . Contact me with the details, and we will work together to create a card that is straight from your heart to theirs!
       
-      br
-      br
-      
-      #carousel.carousel.slide(data-ride='carousel' data-interval="3000")
-        // Indicators
-        ol.carousel-indicators
-          li.active(data-target='#carousel', data-slide-to='0')
-          li(data-target='#carousel', data-slide-to='1')
-          li(data-target='#carousel', data-slide-to='2')
-        // Wrapper for slides
-        .carousel-inner
-          .item.active
-            img(src='http://placehold.it/1200x315', alt='...')
-            .carousel-caption
-              h3 Image 1
-          .item
-            img(src='http://placehold.it/1200x315', alt='...')
-            .carousel-caption
-              h3 Image 2
-          .item
-            img(src='http://placehold.it/1200x315', alt='...')
-            .carousel-caption
-              h3 Image 3
+    br
+    br
+    
+    #carousel.carousel.slide(data-ride='carousel' data-interval="3000")
+      // Indicators
+      ol.carousel-indicators
+        li.active(data-target='#carousel', data-slide-to='0')
+        li(data-target='#carousel', data-slide-to='1')
+        li(data-target='#carousel', data-slide-to='2')
+        li(data-target='#carousel', data-slide-to='3')
+        li(data-target='#carousel', data-slide-to='4')
+      // Wrapper for slides
+      .carousel-inner
+        .item.active
+          img(src='/img/photos/special/01.jpg', alt='Birthday Wishes card')
+          .carousel-caption
+            h3 COVID-19 - Card recognizing window visits
+        .item
+          img(src='/img/photos/special/02.jpg', alt='Happy Birthday maple leaf card')
+          .carousel-caption
+            h3 Happy Birthday
+        .item
+          img(src='/img/photos/special/03.jpg', alt='Home Sweet Home card')
+          .carousel-caption
+            h3 Congratulations on your new home
+        .item
+          img(src='/img/photos/special/04.jpg', alt='Pokeball cards')
+          .carousel-caption
+            h3 Pokemon birthday invitations
+        .item
+          img(src='/img/photos/special/05.png', alt='Guitar party card')
+          .carousel-caption
+            h3 Guitar Party
       // Carousel
+
+  .scripts
+    // jQuery
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+    // Latest compiled and minified JavaScript
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
