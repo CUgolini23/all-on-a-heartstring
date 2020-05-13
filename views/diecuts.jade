@@ -1,11 +1,11 @@
 extends layout
 
 block title
-  - var pageTitle = "DIY"
+  - var pageTitle = "Die Cuts"
 
 block content
-  .diyPage
-    p Upcoming events
+  .diecutsPage
+    br
     #carousel.carousel.slide(data-ride='carousel' data-interval="3000")
       // Indicators
       ol.carousel-indicators
@@ -16,21 +16,13 @@ block content
       // Wrapper for slides
       .carousel-inner
         .item.active
-          img(src='/img/photos/diy/01.jpg', alt='Christmas Tree cut-outs')
-          .carousel-caption
-            h3 Christmas Tree
+          img(src='/img/photos/diecuts/01.jpg', alt='Pine tree tags')
         .item
-          img(src='/img/photos/diy/02.jpg', alt='Easter Bunny cut-outs')
-          .carousel-caption
-            h3 Easter Bunny
+          img(src='/img/photos/diecuts/02.jpg', alt='Easter Bunny cut-outs')
         .item
-          img(src='/img/photos/diy/03.jpg', alt='Noel + tag cut-outs')
-          .carousel-caption
-            h3 Noel
+          img(src='/img/photos/diecuts/03.jpg', alt='Noel + tag cut-outs')
         .item
-          img(src='/img/photos/diy/04.jpg', alt='Mason jar cut-outs')
-          .carousel-caption
-            h3 Mason Jars
+          img(src='/img/photos/diecuts/04.jpg', alt='Mason jar labels')
     // Carousel
 
   .scripts
