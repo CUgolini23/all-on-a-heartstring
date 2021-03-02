@@ -12,14 +12,14 @@ html
     meta(name="viewport" content="width=device-width, initial-scale=1")
 
     link(rel='shortcut icon', type='image/ico', href='/img/global/favicon.ico')
-    title #{pageTitle} | All On A HeartString
+    title #{pageTitle} | LoveKnots On HeartStrings
     != css()
 
     mixin pages(url, copy)
       a.topnav(href='/#{url}') #{copy}
 
     .header
-      a.home.topnav(href='/') All on a HeartString
+      a.home.topnav(href='/') LoveKnots On HeartStrings
       +pages("diecuts", "Die Cuts")
       +pages("special", "Special Orders")
       +pages("about", "About")
