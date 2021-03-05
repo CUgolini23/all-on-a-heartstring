@@ -1,5 +1,5 @@
 # LoveKnots On HeartStrings
-![npm](https://img.shields.io/badge/npm-3.10.5-blue.svg)
+![npm](https://img.shields.io/badge/npm-3.10.10-blue.svg)
 ![build](https://img.shields.io/badge/build-in%20development-yellow.svg)
 [![compiler](https://img.shields.io/badge/compiler-roots-blue.svg)](http://roots.cx/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8025919e-5213-41df-9e96-259aa7771b8d/deploy-status)](https://app.netlify.com/sites/all-on-a-heartstring/deploys)
